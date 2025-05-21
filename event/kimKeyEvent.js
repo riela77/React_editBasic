@@ -4,7 +4,7 @@ const MyKeyEvent = () => {
     //현재 발생한 키보드 이벤트 이름을 저장하는 상태
     // 초기값은 빈문자열/ 이름 저장 변수 :eventinfo / 값업데이트하는 함수 :setEventinfo
     const [eventinfo, setEventinfo] = useState("");
-    //keyinfo :사용자가 누른 키값을 젖아하는 상태 / setKeytinfo : 상태 변화함수 
+    //keyinfo :사용자가 누른 키값을 저장하는 상태 / setKeytinfo : 상태 변화함수 
     const [keyinfo, setKeyinfo] = useState("");
     return (
         <>
